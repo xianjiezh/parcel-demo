@@ -3,4 +3,4 @@ const aaa = (a: string) => {
 }
 
 
-console.log(aaa('111')) 
+console.log(aaa('parcel')) 
