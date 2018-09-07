@@ -1,0 +1,27 @@
+
+$r: red;
+
+@mixin border($border-color: green) {
+  background-color: $border-color; 
+}
+%box {
+  box-shadow: 0 0 6px * 3 #020202;
+}
+h1 {
+  color: $r;
+  @include border();
+  span {
+    color: green;
+    @extend %box;
+    @include border(gray);
+  }
+  > div {
+    border: 1px solid $r;
+    @extend %box;
+    @include border(rgb(117, 117, 145));
+  }
+}
+
+.demo {
+  @extend %box;
+}
