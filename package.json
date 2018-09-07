@@ -1,0 +1,19 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "description": "尝试使用 parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xianjiezh/parcel-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xianjiezh/parcel-demo/issues"
+  },
+  "homepage": "https://github.com/xianjiezh/parcel-demo#readme"
+}
